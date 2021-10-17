@@ -1,29 +1,138 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Hello Rigo with Vanilla.js</title>
+    <title>Dynamic Fields - Day #29</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <!-- include font awesome -->
     <link
       rel="stylesheet"
-      href="https://use.fontawesome.com/releases/v5.2.0/css/all.css"
-      integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
-      crossorigin="anonymous"
+      type="text/css"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
     />
-    <link rel="shortcut icon" href="./4geeks.ico" />
   </head>
   <body>
-    <div class="container-fluid text-center">
-      <h1 class="mt-5">Hello Rigo!</h1>
-      <img src="./rigo-baby.jpg" />
-      <p class="alert alert-warning mt-4">
-        If this text is <b>not</b> centered and <b>yellow</b>, you probably have
-        an error
-      </p>
-      <div class="fixed-bottom p-4">
-        Made with ❤️ by
-        <a href="https://www.4geeksacademy.com">4Geeks Academy</a>
-      </div>
+    <div class="img"> 
+    <img src="https://cdn.shopify.com/s/files/1/0052/5395/5651/files/UHS-site-new-logo_125x.png?v=1546956124"/>
+  </div>
+    <h1>PROJECT QUOTE REQUEST FORM</h1>
+    <div class="container">
+      <div class="wrapper">
+        <div id="survey_options">
+          <div class="one">
+            <input
+              type="text"
+              name="survey_options[]"
+              class="survey_options"
+              size="50"
+              placeholder="First Name"
+            />
+            <input
+              type="text"
+              name="survey_options[]"
+              class="survey_options"
+              size="50"
+              placeholder="Last Name"
+            />
+          </div>
+          
+          <input
+            type="text"
+            name="survey_options[]"
+            class="survey_options"
+            size="50"
+            placeholder="Company Name"
+          />
+          <div class="one">
+            <input
+              type="text"
+              name="survey_options[]"
+              class="survey_options"
+              size="50"
+              placeholder="Email"
+            />
+            <input
+              type="text"
+              name="survey_options[]"
+              class="survey_options"
+              size="50"
+              placeholder="Phone Number"
+            />
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+            <label class="form-check-label" for="flexCheckDefault">
+             <p class="p">  Are you a UHS-Hardware.com customer? </p> 
+            </div> 
+            </label>
+            <div class="one">
+              <input
+                type="text"
+                name="survey_options[]"
+                class="survey_options"
+                size="50"
+                placeholder="Address"
+              />
+              <input
+                type="text"
+                name="survey_options[]"
+                class="survey_options"
+                size="50"
+                placeholder="City"
+              />
+            </div>
+            <div class="one">
+              <input
+                type="text"
+                name="survey_options[]"
+                class="survey_options"
+                size="50"
+                placeholder="State"
+              />
+              <input
+                type="text"
+                name="survey_options[]"
+                class="survey_options"
+                size="50"
+                placeholder="Zip Code"
+              />
+            </div>
+            <p class="p">If You Have a Part Number and/or Brand Please Enter It Below </p>
+      <div class="hero">
+          <input
+            type="text"
+            name="survey_options[]"
+            class="survey_options"
+            size="50"
+            placeholder="Part Number"
+          />
+          <input
+            type="text"
+            name="survey_options[]"
+            class="survey_options"
+            size="50"
+            placeholder="Brand / Quantity"
+          />
+        
+          <script src="script.js"></script>
+        </div>
+      
+        
+        </div>
+         <div class="controls">
+      <a href="#" id="add_more_fields"
+        ><i class="fa fa-plus"></i>Add More</a
+      >
+      <a href="#" id="remove_fields"
+        ><i class="fa fa-plus"></i>Remove Field</a
+      > </div>
     </div>
+    
+   
+    </div>
+    <div class="made"> 
+    <p>  Made by Diego Rodriguez </p>
+   </div>
+  </div>
+   
   </body>
 </html>
