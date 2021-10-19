@@ -26,9 +26,9 @@ add_more_fields.onclick = function() {
   survey_options.appendChild(newField);
 };
 
-remove_fields.onclick = function() {
-  var input_tags = survey_options.getElementsByTagName("input");
-  if (input_tags.length > 2) {
-    survey_options.removeChild(input_tags() - 1);
-  }
-};
+// remove_fields.onclick = function() {
+//   var input_tags = survey_options.getElementsByTagName("input");
+//   if (input_tags.length > 2) {
+//     survey_options.removeChild(input_tags() - 1);
+//   }
+// };
